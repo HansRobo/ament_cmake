@@ -2,6 +2,16 @@
 Changelog for package ament_cmake_core
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.7.2 (2024-11-19)
+------------------
+* Support generator expressions when symlinking install(FILES) (`#560 <https://github.com/ament/ament_cmake/issues/560>`_)
+* Always symlink TARGET\_{LINKER,SONAME}_FILE on libraries (`#535 <https://github.com/ament/ament_cmake/issues/535>`_)
+* Fix symlink install of versioned libs on macOS (`#558 <https://github.com/ament/ament_cmake/issues/558>`_)
+* Contributors: Scott K Logan
+
+2.7.1 (2024-10-03)
+------------------
+
 2.7.0 (2024-06-25)
 ------------------
 
